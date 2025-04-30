@@ -7,7 +7,7 @@ import pandas as pd
 import pickle
 
 # Load model and preprocessing tools
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('model.h5',compile=False)
 
 with open('Oht_Geography.pkl', 'rb') as file:
     onehot_encoder_geo = pickle.load(file)
