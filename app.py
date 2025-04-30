@@ -63,14 +63,14 @@ if prediction_proba > 0.5:
     st.markdown(f"""
         <div style='padding: 20px; background-color: #ffcccc; border-radius: 10px; text-align: center;'>
             <h2 style='color: red;'>⚠️ High Risk of Churn</h2>
-            <p>Probability: <strong>{prediction_proba:.2f}</strong></p>
+            <p style = 'color: red' >Probability: <strong>{prediction_proba:.2f}</strong></p>
         </div>
     """, unsafe_allow_html=True)
 else:
     st.markdown(f"""
         <div style='padding: 20px; background-color: #ccffcc; border-radius: 10px; text-align: center;'>
             <h2 style='color: green;'>✅ Low Risk of Churn</h2>
-            <p>Probability: <strong>{prediction_proba:.2f}</strong></p>
+            <p style = 'color: green' >Probability: <strong>{prediction_proba:.2f}</strong></p>
         </div>
     """, unsafe_allow_html=True)
 
