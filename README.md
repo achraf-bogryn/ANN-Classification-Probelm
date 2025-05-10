@@ -60,7 +60,17 @@ The ANN model demonstrates reliable performance for identifying churned customer
 
 ## 🌐 Streamlit App
 
-![Churn Streamlit](images/streamlit-app.png)
+### 🔹 Enter Data:
+![Churn Streamlit](images/app_1.PNG)
+
+
+### 🔹 interface if churn low risk:
+![Churn Streamlit](images/app_2.PNG)
+
+
+### 🔹 interface if churn high risk:
+![Churn Streamlit](images/app_3.PNG)
+
 
 The app allows users to input customer details and receive real-time churn predictions.
 
