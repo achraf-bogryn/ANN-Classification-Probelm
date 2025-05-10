@@ -7,15 +7,15 @@ import pandas as pd
 import pickle
 
 # Load model and preprocessing tools
-model = tf.keras.models.load_model('model.h5',compile=False)
+model = tf.keras.models.load_model('D:\ANN-project\models\model.h5')
 
-with open('Oht_Geography.pkl', 'rb') as file:
+with open('D:\ANN-project\models/Oht_Geography.pkl', 'rb') as file:
     onehot_encoder_geo = pickle.load(file)
 
-with open('Label_Encoder_gender.pkl', 'rb') as file:
+with open('D:\ANN-project\models/Label_Encoder_gender.pkl', 'rb') as file:
     label_encoder_gender = pickle.load(file)
 
-with open('sclaer.pkl', 'rb') as file:
+with open('D:\ANN-project\models\sclaer.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 # App Title
