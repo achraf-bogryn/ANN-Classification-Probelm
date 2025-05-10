@@ -1,6 +1,6 @@
 # 📉 Customer Churn Prediction using ANN
 
-![Model Architecture](images/churn-ann.png)
+![Model Architecture](images/Churn.PNG)
 
 This project uses an **Artificial Neural Network (ANN)** to predict customer churn for a bank. The model determines whether a customer is likely to leave the bank (churn) based on personal and account-level features such as age, tenure, balance, etc.
 
