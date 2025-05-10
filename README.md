@@ -71,5 +71,31 @@ The app allows users to input customer details and receive real-time churn predi
 ### 🔹 Clone the repository:
 
 ```bash
-git clone https://github.com/achraf-bogryn/Customer-Churn-ANN.git
-cd Customer-Churn-ANN
+git clone https://github.com/achraf-bogryn/ANN-Classification-Probelm.git
+cd ANN-Classification-Probelm.
+```
+
+### 🔹 Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+### 🔹 Run the Streamlit App:
+```bash
+cd apps
+streamlit run app.py
+```
+
+### 📦 Project Structure
+```bash 
+sentiment-analysis-imdb/
+├── Ann                                        # Notebooks containing Training and preprocessing data 
+├── apps/app.py                                # Streamlit interface
+├── models/                                    # model and all transformation 
+├── images/                                    # Visual assets for README
+├── dataset/                                   # dataset
+├── logs/                                      # monitoring train and test process 
+├── requirements.txt                           # Dependencies
+└── README.md
+```
+
