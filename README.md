@@ -87,6 +87,7 @@ cd ANN-Classification-Probelm.
 ### 🔹 Install the required packages:
 ```bash
 pip install -r requirements.txt
+pip install ipykernel
 ```
 
 ### 🔹 Run the Streamlit App:
